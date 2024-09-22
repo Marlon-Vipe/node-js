@@ -14,3 +14,4 @@ config() // Cargamos las variables de entorno
 const PORT = env.get('PORT').asPortNumber() // Obtenemos la variable de entorno PORT
 
 console.log(process.env.PORT) // Mostramos la variable de entorno PORT
+console.log(PORT) // Mostramos la variable de entorno PORT
